@@ -1,0 +1,4 @@
+注解：
+Repository：用户数据库的操作管理，屏蔽业务层和数据层直接交互，与Dao的区别是，Repository统一对全库进行管理操作，而Dao用于单数据表的操作
+Component：组件
+Bean：实现spring中的bean功能
