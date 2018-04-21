@@ -1,73 +1,110 @@
-11:05:13.697 INFO  org.springframework.boot.StartupInfoLogger 48 logStarting - Starting App on lilei03774 with PID 8248 (C:\Users\lilei3774\workspace-4.2\next1\target\classes started by lilei3774 in C:\Users\lilei3774\workspace-4.2\next1)
-11:05:13.699 DEBUG org.springframework.boot.StartupInfoLogger 51 logStarting - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
-11:05:13.700 INFO  org.springframework.boot.SpringApplication 659 logStartupProfileInfo - No active profile set, falling back to default profiles: default
-11:05:13.992 INFO  org.springframework.context.support.AbstractApplicationContext 581 prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2a585872: startup date [Sat Apr 21 11:05:13 CST 2018]; root of context hierarchy
-11:05:14.164 INFO  org.hibernate.validator.internal.util.Version 30 <clinit> - HV000001: Hibernate Validator 5.2.4.Final
-11:05:16.307 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 88 initialize - Tomcat initialized with port(s): 8080 (http)
-11:05:16.321 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Starting service Tomcat
-11:05:16.324 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Starting Servlet Engine: Apache Tomcat/8.5.4
-11:05:16.424 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Initializing Spring embedded WebApplicationContext
-11:05:16.425 INFO  org.springframework.boot.context.embedded.EmbeddedWebApplicationContext 276 prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 2434 ms
-11:05:16.619 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean 190 onStartup - Mapping servlet: 'dispatcherServlet' to [/]
-11:05:16.626 INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'characterEncodingFilter' to: [/*]
-11:05:16.627 INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-11:05:16.627 INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
-11:05:16.628 INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'requestContextFilter' to: [/*]
-11:05:16.984 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter 534 initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2a585872: startup date [Sat Apr 21 11:05:13 CST 2018]; root of context hierarchy
-11:05:17.092 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/get]}" onto public java.lang.String com.lilei.next1.C1.get()
-11:05:17.093 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/param1]}" onto public java.lang.String com.lilei.next1.C1.param1()
-11:05:17.094 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/user1]}" onto public java.lang.String com.lilei.next1.C1.getUser()
-11:05:17.094 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/page1]}" onto public java.lang.String com.lilei.next1.C2.page1()
-11:05:17.095 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/c3/user1]}" onto public java.lang.String com.lilei.next1.C3.getUser()
-11:05:17.099 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-11:05:17.101 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-11:05:17.150 INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 354 registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-11:05:17.150 INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 354 registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-11:05:17.205 INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 354 registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-11:05:17.984 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 58 startServer - LiveReload server is running on port 35729
-11:05:18.058 INFO  org.springframework.jmx.export.MBeanExporter 431 afterSingletonsInstantiated - Registering beans for JMX exposure on startup
-11:05:18.105 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Initializing ProtocolHandler ["http-nio-8080"]
-11:05:18.122 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Starting ProtocolHandler [http-nio-8080]
-11:05:18.139 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Using a shared selector for servlet write/read
-11:05:18.156 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 186 start - Tomcat started on port(s): 8080 (http)
-11:05:18.166 INFO  org.springframework.boot.StartupInfoLogger 57 logStarted - Started App in 4.905 seconds (JVM running for 5.834)
-11:05:33.849 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Initializing Spring FrameworkServlet 'dispatcherServlet'
-11:05:33.849 INFO  org.springframework.web.servlet.FrameworkServlet 489 initServletBean - FrameworkServlet 'dispatcherServlet': initialization started
-11:05:33.868 INFO  org.springframework.web.servlet.FrameworkServlet 508 initServletBean - FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
-11:06:11.320 INFO  org.springframework.context.support.AbstractApplicationContext 982 doClose - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2a585872: startup date [Sat Apr 21 11:05:13 CST 2018]; root of context hierarchy
-11:06:11.322 INFO  org.springframework.jmx.export.MBeanExporter 449 destroy - Unregistering JMX-exposed beans on shutdown
-11:06:11.606 INFO  org.springframework.boot.StartupInfoLogger 48 logStarting - Starting App on lilei03774 with PID 8248 (C:\Users\lilei3774\workspace-4.2\next1\target\classes started by lilei3774 in C:\Users\lilei3774\workspace-4.2\next1)
-11:06:11.607 DEBUG org.springframework.boot.StartupInfoLogger 51 logStarting - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
-11:06:11.607 INFO  org.springframework.boot.SpringApplication 659 logStartupProfileInfo - No active profile set, falling back to default profiles: default
-11:06:11.615 INFO  org.springframework.context.support.AbstractApplicationContext 581 prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1d1da5a8: startup date [Sat Apr 21 11:06:11 CST 2018]; root of context hierarchy
-11:06:12.264 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 88 initialize - Tomcat initialized with port(s): 8080 (http)
-11:06:12.265 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Starting service Tomcat
-11:06:12.265 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Starting Servlet Engine: Apache Tomcat/8.5.4
-11:06:12.279 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Initializing Spring embedded WebApplicationContext
-11:06:12.279 INFO  org.springframework.boot.context.embedded.EmbeddedWebApplicationContext 276 prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 664 ms
-11:06:12.320 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean 190 onStartup - Mapping servlet: 'dispatcherServlet' to [/]
-11:06:12.321 INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'characterEncodingFilter' to: [/*]
-11:06:12.322 INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-11:06:12.322 INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
-11:06:12.322 INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'requestContextFilter' to: [/*]
-11:06:12.412 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter 534 initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1d1da5a8: startup date [Sat Apr 21 11:06:11 CST 2018]; root of context hierarchy
-11:06:12.422 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/get]}" onto public java.lang.String com.lilei.next1.C1.get()
-11:06:12.423 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/param1]}" onto public java.lang.String com.lilei.next1.C1.param1()
-11:06:12.424 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/user1]}" onto public java.lang.String com.lilei.next1.C1.getUser()
-11:06:12.427 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/page1]}" onto public java.lang.String com.lilei.next1.C2.page1()
-11:06:12.428 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/c3/user1]}" onto public java.lang.String com.lilei.next1.C3.getUser()
-11:06:12.432 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-11:06:12.433 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-11:06:12.452 INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 354 registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-11:06:12.453 INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 354 registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-11:06:12.470 INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 354 registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-11:06:12.528 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 58 startServer - LiveReload server is running on port 35729
-11:06:12.585 INFO  org.springframework.jmx.export.MBeanExporter 431 afterSingletonsInstantiated - Registering beans for JMX exposure on startup
-11:06:12.608 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Initializing ProtocolHandler ["http-nio-8080"]
-11:06:12.610 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Starting ProtocolHandler [http-nio-8080]
-11:06:12.614 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Using a shared selector for servlet write/read
-11:06:12.633 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 186 start - Tomcat started on port(s): 8080 (http)
-11:06:12.635 INFO  org.springframework.boot.StartupInfoLogger 57 logStarted - Started App in 1.11 seconds (JVM running for 60.302)
-11:06:14.201 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Initializing Spring FrameworkServlet 'dispatcherServlet'
-11:06:14.207 INFO  org.springframework.web.servlet.FrameworkServlet 489 initServletBean - FrameworkServlet 'dispatcherServlet': initialization started
-11:06:14.211 INFO  org.springframework.web.servlet.FrameworkServlet 508 initServletBean - FrameworkServlet 'dispatcherServlet': initialization completed in 4 ms
+11:49:01.588 INFO  org.springframework.boot.StartupInfoLogger 48 logStarting - Starting App on lilei03774 with PID 17228 (C:\Users\lilei3774\workspace-4.2\next1\target\classes started by lilei3774 in C:\Users\lilei3774\workspace-4.2\next1)
+11:49:01.591 DEBUG org.springframework.boot.StartupInfoLogger 51 logStarting - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+11:49:01.591 INFO  org.springframework.boot.SpringApplication 659 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+11:49:01.885 INFO  org.springframework.context.support.AbstractApplicationContext 581 prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5a03ec8d: startup date [Sat Apr 21 11:49:01 CST 2018]; root of context hierarchy
+11:49:01.889 INFO  org.hibernate.validator.internal.util.Version 30 <clinit> - HV000001: Hibernate Validator 5.2.4.Final
+11:49:04.036 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 88 initialize - Tomcat initialized with port(s): 8080 (http)
+11:49:04.049 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Starting service Tomcat
+11:49:04.051 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Starting Servlet Engine: Apache Tomcat/8.5.4
+11:49:04.159 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Initializing Spring embedded WebApplicationContext
+11:49:04.161 INFO  org.springframework.boot.context.embedded.EmbeddedWebApplicationContext 276 prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 2277 ms
+11:49:04.360 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean 190 onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+11:49:04.365 INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+11:49:04.367 INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+11:49:04.368 INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+11:49:04.368 INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'requestContextFilter' to: [/*]
+11:49:04.719 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter 534 initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5a03ec8d: startup date [Sat Apr 21 11:49:01 CST 2018]; root of context hierarchy
+11:49:04.796 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/get]}" onto public java.lang.String com.lilei.next1.C1.get()
+11:49:04.797 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/param1]}" onto public java.lang.String com.lilei.next1.C1.param1()
+11:49:04.798 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/user1]}" onto public java.lang.String com.lilei.next1.C1.getUser()
+11:49:04.799 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/page1]}" onto public java.lang.String com.lilei.next1.C2.page1()
+11:49:04.800 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/c3/user1]}" onto public java.lang.String com.lilei.next1.C3.getUser()
+11:49:04.804 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+11:49:04.808 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+11:49:04.841 INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 354 registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:49:04.841 INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 354 registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:49:04.882 INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 354 registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:49:05.623 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 58 startServer - LiveReload server is running on port 35729
+11:49:05.687 INFO  org.springframework.jmx.export.MBeanExporter 431 afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+11:49:05.714 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Initializing ProtocolHandler ["http-nio-8080"]
+11:49:05.727 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Starting ProtocolHandler [http-nio-8080]
+11:49:05.745 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Using a shared selector for servlet write/read
+11:49:05.764 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 186 start - Tomcat started on port(s): 8080 (http)
+11:49:05.770 INFO  org.springframework.boot.StartupInfoLogger 57 logStarted - Started App in 4.604 seconds (JVM running for 5.61)
+11:52:53.696 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Initializing Spring FrameworkServlet 'dispatcherServlet'
+11:52:53.697 INFO  org.springframework.web.servlet.FrameworkServlet 489 initServletBean - FrameworkServlet 'dispatcherServlet': initialization started
+11:52:53.722 INFO  org.springframework.web.servlet.FrameworkServlet 508 initServletBean - FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+11:53:29.027 INFO  org.springframework.context.support.AbstractApplicationContext 982 doClose - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5a03ec8d: startup date [Sat Apr 21 11:49:01 CST 2018]; root of context hierarchy
+11:53:29.030 INFO  org.springframework.jmx.export.MBeanExporter 449 destroy - Unregistering JMX-exposed beans on shutdown
+11:53:29.317 INFO  org.springframework.boot.StartupInfoLogger 48 logStarting - Starting App on lilei03774 with PID 17228 (C:\Users\lilei3774\workspace-4.2\next1\target\classes started by lilei3774 in C:\Users\lilei3774\workspace-4.2\next1)
+11:53:29.318 DEBUG org.springframework.boot.StartupInfoLogger 51 logStarting - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+11:53:29.318 INFO  org.springframework.boot.SpringApplication 659 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+11:53:29.327 INFO  org.springframework.context.support.AbstractApplicationContext 581 prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b4aa31d: startup date [Sat Apr 21 11:53:29 CST 2018]; root of context hierarchy
+11:53:29.891 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 88 initialize - Tomcat initialized with port(s): 8080 (http)
+11:53:29.893 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Starting service Tomcat
+11:53:29.894 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Starting Servlet Engine: Apache Tomcat/8.5.4
+11:53:29.902 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Initializing Spring embedded WebApplicationContext
+11:53:29.902 INFO  org.springframework.boot.context.embedded.EmbeddedWebApplicationContext 276 prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 575 ms
+11:53:29.940 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean 190 onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+11:53:29.941 INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+11:53:29.942 INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+11:53:29.942 INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+11:53:29.943 INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'requestContextFilter' to: [/*]
+11:53:30.029 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter 534 initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b4aa31d: startup date [Sat Apr 21 11:53:29 CST 2018]; root of context hierarchy
+11:53:30.041 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/get]}" onto public java.lang.String com.lilei.next1.C1.get()
+11:53:30.042 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/param1]}" onto public java.lang.String com.lilei.next1.C1.param1()
+11:53:30.042 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/user1]}" onto public java.lang.String com.lilei.next1.C1.getUser()
+11:53:30.043 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/page1]}" onto public java.lang.String com.lilei.next1.C2.page1()
+11:53:30.044 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/c3/user1]}" onto public java.lang.String com.lilei.next1.C3.getUser()
+11:53:30.046 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+11:53:30.047 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+11:53:30.056 INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 354 registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:53:30.056 INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 354 registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:53:30.070 INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 354 registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:53:30.117 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 58 startServer - LiveReload server is running on port 35729
+11:53:30.169 INFO  org.springframework.jmx.export.MBeanExporter 431 afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+11:53:30.179 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Initializing ProtocolHandler ["http-nio-8080"]
+11:53:30.181 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Starting ProtocolHandler [http-nio-8080]
+11:53:30.182 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Using a shared selector for servlet write/read
+11:53:30.190 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 186 start - Tomcat started on port(s): 8080 (http)
+11:53:30.193 INFO  org.springframework.boot.StartupInfoLogger 57 logStarted - Started App in 0.938 seconds (JVM running for 270.021)
+11:53:37.565 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Initializing Spring FrameworkServlet 'dispatcherServlet'
+11:53:37.567 INFO  org.springframework.web.servlet.FrameworkServlet 489 initServletBean - FrameworkServlet 'dispatcherServlet': initialization started
+11:53:37.574 INFO  org.springframework.web.servlet.FrameworkServlet 508 initServletBean - FrameworkServlet 'dispatcherServlet': initialization completed in 6 ms
+11:54:18.707 INFO  org.springframework.context.support.AbstractApplicationContext 982 doClose - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b4aa31d: startup date [Sat Apr 21 11:53:29 CST 2018]; root of context hierarchy
+11:54:18.709 INFO  org.springframework.jmx.export.MBeanExporter 449 destroy - Unregistering JMX-exposed beans on shutdown
+11:54:19.327 INFO  org.springframework.boot.StartupInfoLogger 48 logStarting - Starting App on lilei03774 with PID 17228 (C:\Users\lilei3774\workspace-4.2\next1\target\classes started by lilei3774 in C:\Users\lilei3774\workspace-4.2\next1)
+11:54:19.327 DEBUG org.springframework.boot.StartupInfoLogger 51 logStarting - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+11:54:19.328 INFO  org.springframework.boot.SpringApplication 659 logStartupProfileInfo - No active profile set, falling back to default profiles: default
+11:54:19.331 INFO  org.springframework.context.support.AbstractApplicationContext 581 prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6f492c66: startup date [Sat Apr 21 11:54:19 CST 2018]; root of context hierarchy
+11:54:19.950 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 88 initialize - Tomcat initialized with port(s): 8080 (http)
+11:54:19.953 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Starting service Tomcat
+11:54:19.957 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Starting Servlet Engine: Apache Tomcat/8.5.4
+11:54:19.973 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Initializing Spring embedded WebApplicationContext
+11:54:19.973 INFO  org.springframework.boot.context.embedded.EmbeddedWebApplicationContext 276 prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 642 ms
+11:54:20.004 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean 190 onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+11:54:20.004 INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+11:54:20.005 INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+11:54:20.005 INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+11:54:20.006 INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean 258 configure - Mapping filter: 'requestContextFilter' to: [/*]
+11:54:20.085 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter 534 initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6f492c66: startup date [Sat Apr 21 11:54:19 CST 2018]; root of context hierarchy
+11:54:20.092 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/get]}" onto public java.lang.String com.lilei.next1.C1.get()
+11:54:20.093 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/param1]}" onto public java.lang.String com.lilei.next1.C1.param1()
+11:54:20.093 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/user1]}" onto public java.lang.String com.lilei.next1.C1.getUser()
+11:54:20.094 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/page1]}" onto public java.lang.String com.lilei.next1.C2.page1()
+11:54:20.095 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/c3/user1]}" onto public java.lang.String com.lilei.next1.C3.getUser()
+11:54:20.097 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+11:54:20.097 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry 543 register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+11:54:20.105 INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 354 registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:54:20.106 INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 354 registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:54:20.118 INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping 354 registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+11:54:20.156 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 58 startServer - LiveReload server is running on port 35729
+11:54:20.196 INFO  org.springframework.jmx.export.MBeanExporter 431 afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+11:54:20.203 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Initializing ProtocolHandler ["http-nio-8080"]
+11:54:20.204 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Starting ProtocolHandler [http-nio-8080]
+11:54:20.206 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Using a shared selector for servlet write/read
+11:54:20.215 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer 186 start - Tomcat started on port(s): 8080 (http)
+11:54:20.219 INFO  org.springframework.boot.StartupInfoLogger 57 logStarted - Started App in 1.232 seconds (JVM running for 320.044)
+11:54:22.620 INFO  org.apache.juli.logging.DirectJDKLog 179 log - Initializing Spring FrameworkServlet 'dispatcherServlet'
+11:54:22.622 INFO  org.springframework.web.servlet.FrameworkServlet 489 initServletBean - FrameworkServlet 'dispatcherServlet': initialization started
+11:54:22.623 INFO  org.springframework.web.servlet.FrameworkServlet 508 initServletBean - FrameworkServlet 'dispatcherServlet': initialization completed in 1 ms
